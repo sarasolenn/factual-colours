@@ -1,0 +1,125 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+  <title>FACTUAL COLOURS</title>
+  <meta name="description" content="Factual Colours">
+  <meta name="author" content="Sara Solén">
+
+  <meta property="og:title" content="FACTUAL COLOURS">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.sitepoint.com/a-basic-html5-template/">
+  <meta property="og:description" content="FACTUAL COLOURS / Sara Solén 2022">
+  <meta property="og:image" content="image.png">
+
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <link rel="stylesheet" href="https://use.typekit.net/kix4uhl.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="style.css?v=1.0">
+
+
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+
+</head>
+
+<body>
+
+  <div id="mobile-nav">
+  <h2 style="text-align: center; left:47%; font-size:48px; margin-top: 4px;"><a href="index.html">&#11151;</a></h2>
+  <h2 style="text-align: left; left: 4px;"><a href="blue.html">←</a></h2>
+  <h2 style="text-align: right; right:12px;"><a href="brown.html">→</a></h2>
+  </div>
+
+  <div class="info" id="myBtn">i</div>
+
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+  <div class="modal-content">
+<div class="close">&times;</div>
+    <p>Examensarbete "Factual Colours" av <a href="sarasolen.se">Sara Solén</a> 2022, Beckmans Designhögskola Visuell Kommunikation</p>
+  </div>
+</div>
+
+<div id="restart"><a href="index.html">&#11151;</a></div>
+
+<div id="previous"><a href="ice.html">←</a></div>
+
+<div id="restart-finish"><a href="index.html">&#11151;</a></div>
+
+<div id="progress">
+<div id="stroke">
+<span class="dot" style="background-color: #4585eb;"></span>
+<span class="dot" style="background-color: #ccabeb;"></span>
+<span class="dot" style="background-color: #d6681e;"></span>
+<span class="dot" style="background-color: #828f12;"></span>
+<span class="dot" style="background-color: #0a292b;"></span>
+<span class="dot" style="background-color: #adebc2;"></span>
+</div>
+</div>
+
+<div id="content-startslut">
+
+  <div id="ring"></div>
+
+<div id="hole"></div>
+
+<div id="color-name"><h1>SLUT<h1></div>
+
+<div id="color-box1-1">
+<p>
+Denna färgskala är baserad på
+Stockholm Resilience Center’s forskning ”One Earth: The Water Planetary Boundary: Interrogation and Revision” (2020).
+<br>Läs vidare på <a href="https://www.sciencedirect.com/science/article/pii/S2590332220300907" style="text-decoration: underline;">Stockholm Resilience Center.</a>
+<br><br>
+Tack till: Line Gordon, Lan Wang-Erlandsson,<br>
+Stockholm Resilience Center & Elias Wirtén.
+
+<br><br>Av: Sara Solén 2022
+
+<br><br><a href="index.html" style="text-decoration: underline;">Börja om</a></p>
+</div>
+
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
